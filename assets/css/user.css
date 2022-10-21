@@ -1,0 +1,9 @@
+*{
+    margin-left: 0;
+    margin-right: 0;
+}
+.header {
+    height: 40px;
+    width: 100%;
+    background-color: red;
+}

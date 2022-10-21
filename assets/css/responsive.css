@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+@media (max-width: 1023px){
+    
+}
+
+/* mobile */
+@media (max-width: 739px){
+  .img__logo{
+      width:6rem;
+      height:auto !important;
+    }
+    
+}
+
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .img__logo{
+      width:6rem;
+      height:auto !important;
+    }
+
+  .nav__menu{
+    padding: 1.5rem 0 1rem;
+    text-align: center;
+    background-color: var(--body-color);
+    transition: .4s;
+    border-radius: 0 0 1rem 1rem;
+    z-index: var(--z-fixed);
+  }
+}
+
+
+/* pc */
+@media (min-width: 1024px){
+  .img__logo{
+      width:10rem;
+      height:auto !important;
+    }
+}
+
+

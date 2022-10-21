@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    transition: .3s;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.bg-dark {
+    background-color: #fbfefd;
+    color: #393939;
+}
+
+.p {
+    padding: 10px;
+}
+
+.p-y-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.m-t-10 {
+    margin-top: 10px;
+}
+
+.channel {
+    max-width: 1366px;
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+}
+
+.part > .row {
+    margin: 0 -10px;
+}
+
+.row.jus-center {
+    justify-content: center;
+}
+
+.row.jus-between {
+    justify-content: space-between;
+}
+
+.col-stretch {
+    align-self: stretch;
+}
+
+.col-2 {
+    width: calc(100% / 5);
+}
+
+.col-4 {
+    width: calc(100% / 3);
+}
+
+.col-6 {
+    width: calc(100% / 2);
+}
+
+.big-title {
+    font-size: 100px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.part {
+    margin-bottom: 30px;
+}
+
+.part-title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.view{
+    float: right;
+    text-decoration: none;
+    color: white;
+}
+
+.card {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-color: #171717;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card .card-body .img {
+    overflow: hidden;
+}
+
+.card .card-body .img img {
+    transition: .3s;
+}
+
+.card:hover .card-body .img img {
+    transform: scale(1.4);
+}
+
+.leading-1 {
+    font-size: 50px;
+}
+
+.leading-3 {
+    font-size: 30px;
+}
+
+.d-block {
+    display: block;
+}
+
+.scaleOnHover {
+    transition: .3s;
+}
+
+.scaleOnHover:hover {
+    transform: scale(1.1);
+} 
+
+.btn button{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 10px auto;
+}
+/* Customs CSS */
+.card-header img {
+    max-width: 40px;
+}
+
+.p-2{
+    padding: 0.5em;
+}
+
+.toggle{
+    text-align: center;
+    padding: 0.25em;
+}
+
+.ul-1{
+    overflow-y: hidden;
+    height: 54px;
+    transition: .3s;
+}
+
+.ul-1.active{
+    overflow-y: visible;
+    height: 100%;
+}
+
+.toggle.active {
+    transform: rotate(180deg);
+}
+
+.line-1{
+    align-items: stretch;
+}
+
+.card{
+    transition: .3s;
+}
